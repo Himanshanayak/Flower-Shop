@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>Regular Expression</title>
+</head>
+<body>
+    <!--Homework we have to add country code in phone number "+91930-108-2679"-->
+    <label for="phone">Phone Number</label>
+    <input type="text" id="phone" name="phone" pattern="^[+91]\d{3}-\d{3}-\d{4}$">
+
+    <label for="pwd">Password</label>
+    <input id="pwd" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(A-Za-z\d){8,}$">
+    
+    <label for="pwd">Strong Password</label>
+    <input id="pwd" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(A-Za-z\d)(?=.*[@$!%?&#]){12,}$">
+
+    <label for="email">Email</label>
+    <input id="email" name="password" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-z]{2,}$">
+    
+    <input type="Submit" value="Submit">
+</body>
+</html>

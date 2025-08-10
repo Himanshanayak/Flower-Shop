@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Forms</title>
+    </head>
+    <body>
+        <h3>Register form</h3>
+        <br><br>
+        <form>
+            <fieldset> 
+            <legend>Personel Details</legend>
+            <label for="username">Username* :</label>
+            <input type="text" id="username" name="username" placeholder="Enter your name" required><br><br>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+            <label for="pwd">Password* :</label>
+            <input type="password" id="pwd" name="password" placeholder="Enter your password" required><br><br>
+
+            <label for="Age">Age* :</label>
+            <input type="number" id="Age" name="Age" placeholder="Age" required><br><br>
+
+            <!-- Radiobutton -->
+            <label>
+                <input type="radio" name="gender" value="m">Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="f">Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="o">Other
+            </label>
+            <br><br>
+           
+            <label for="date">Dob :</label>
+            <input type="date" id="date" name="date" title = "Enter your date of birth"><br><br>
+        </fieldset>
+        <fieldset>  
+            <legend>Extra Details</legend>  
+            <label for="time">Class Timing :</label>
+            <input type="time" id="time" name="t"><br><br>
+
+            <label>Your Linkdin url :</label>
+            <input type="url" placeholder="https://kodnest.com" name="urlencode"><br><br>
+
+            <!-- Checkbox -->
+            <label>
+            <input type="checkbox" value="html" name="html"> HTML
+            </label>
+            <label>
+            <input type="checkbox" value="CSS" name="CSS"> CSS
+            </label>
+            <label>
+            <input type="checkbox" value="js" name="js"> JavaScript
+            </label><br><br>
+
+            <!-- File -->
+        <label for="file">Upload file: </label>
+        <input type="file" id="file"><br><br>
+
+        <!--range-->
+        <label>Rate yourself in html</label>
+        <input type="range"><br><br>
+
+        <!-- select drop down list -->
+        <label for="opt"> Select skills:</label>
+        <select id="opt" name="skills">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+        </select><br><br>
+    </fieldset>
+        <!-- text area -->
+        <label for="cmt">Enter your comments:</label>
+        <textarea rows="10" cols="50" id="cmt" name="comment">
+        </textarea><br><br>
+
+        <button type="submit">Submit</button>
+
+        </form>
+    </body>
+    </html>
+
+
+
+

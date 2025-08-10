@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <title>Selectors in  css</title>
+    <style>
+        /* Group Selector - (,) */
+     h1, h2, p {
+        font-style: italic;
+     }
+     /* universal seclector - * */
+     * {
+        background-color: black;
+        color: aliceblue;
+     }
+     /* Tag Selector */
+     h1{
+        font-size: 80px;
+     }
+     /* ID Selector */
+     #heading{
+        color: yellow;
+        text-decoration: underline;
+        text-align: center;
+     }
+     #head1{
+        text-align: end;
+     }
+     /* class seletors */
+     .ypara{
+        color: yellow;
+        background-color: blue;
+     }
+     .upara{
+        text-decoration: underline;
+     }
+
+     #div1{
+        font-size: 40px;
+     }
+     </style>
+</head>
+<body>
+    <!-- id (name unique) -->
+    <h1 id="heading"> Selectors </h1>
+    <div id="div1">
+    <p class="ypara upara"> Hello </p>
+    <p> Para 1</p>
+    <p class="ypara upara"> Para 1</p>
+    <p> Para 1</p>
+    <p class="ypara upara"> Para 1</p>
+    <p> Para 1</p>
+    </div>
+
+    <h1 id="head1">Heading</h1>
+    <div>
+        <h2 class="upara">Heading 2</h2>
+        <p>Para 2</p>
+    </div>
+
+    <h2>Heading 3</h2>
+    <p>Para 3</p>
+
+    <div>
+        <h2>Heading 4</h2>
+        <p>Para 4</p>
+        <p>para 5</p>
+    </div>
+    <p>para 6</p>
+</body>
+</html>

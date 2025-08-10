@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ShinyJewels</title>
+  <style>
+    /* Universal Selector */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Element Selector */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+    }
+
+    h1 {
+      text-align: center;
+      color: goldenrod;
+      margin: 20px 0;
+    }
+
+    /* ID Selector */
+    #main-container {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* Class Selector */
+    .jewelry-item {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 15px 0;
+      background-color: #ffffff;
+      transition: transform 0.3s;
+    }
+
+    .jewelry-item:hover {
+      transform: scale(1.03);
+    }
+
+    /* Group Selector */
+    h2, p {
+      margin-bottom: 10px;
+    }
+
+    /* Descendant Selector */
+    .jewelry-item p {
+      color: #444;
+    }
+
+    /* Child Selector */
+    .jewelry-item > span {
+      color: red;
+      font-weight: bold;
+    }
+
+    /* Adjacent Sibling Selector */
+    h2 + p {
+      font-style: italic;
+    }
+
+    /* General Sibling Selector */
+    h2 ~ p {
+      font-size: 14px;
+    }
+
+    /* Attribute Selector */
+    img[alt] {
+      border: 2px solid #eee;
+      border-radius: 8px;
+      width: 100%;
+      max-width: 300px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to ShinyJewels</h1>
+
+  <div id="main-container">
+
+    <div class="jewelry-item">
+      <h2>Gold Necklace</h2>
+      <p>This elegant gold necklace is perfect for every occasion.</p>
+      <p>Price: <span>₹25,000</span></p>
+      <img src="images/goldneclace.jpg" alt="Gold Necklace">
+    </div>
+
+    <div class="jewelry-item">
+      <h2>Diamond Ring</h2>
+      <p>Shine bright with this dazzling diamond ring.</p>
+      <p>Price: <span>₹45,000</span></p>
+      <img src="images/dimondring.jpg" alt="Diamond Ring">
+    </div>
+
+    <div class="jewelry-item">
+      <h2>Silver Earrings</h2>
+      <p>Trendy and lightweight silver earrings for everyday wear.</p>
+      <p>Price: <span>₹5,500</span></p>
+      <img src="images/silverearring.jpg" alt="Silver Earrings">
+    </div>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+    * {
+        margin: 0px;
+    }
+    .bcontainer {
+        width: 100px;
+        height: 100px; 
+        box-sizing: border-box;
+        padding: 20px; 
+        border: 20px solid red; 
+        margin: 30px;
+    }
+    .ccontainer{
+        width: 500px;
+        height: 500px;
+        box-sizing: content-box;
+        padding: 30px;
+        border: 40px solid green;
+        margin: 50px;
+    }
+    .container {
+        width: 500px;
+        height: 100px;
+        padding: 20px;
+        border: 20px solid brown;
+        margin: 30px;
+    }
+    </style>
+</head>
+    <body>
+    <div class="bcontainer">border-box</div>
+    <br>
+    <div class="ccontainer">content-box Lorem ipsum dolor sit, amet 
+        consectetur adipisicing elit. Quis, ea voluptas. Iste cupiditate 
+        facilis aperiam commodi deserunt, architecto vel dolores, ea ullam accusantium 
+        similique voluptate accusamus labore rerum ratione assumenda!</div>
+    <br>
+    <div class="container">Normal div</div>
+</body>
+
+    </html>
+
+
+
