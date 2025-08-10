@@ -1,0 +1,28 @@
+#container {
+    width: 400px;
+    height: 200px;
+    border: 2px solid red;
+
+    display: flex;
+    flex-direction: row; /*row column row-reverse column-reverse*/
+    /*justify-content: space-evenly; flex-start flex-end center space-around space-between space-evenly*/
+    align-content: space-around;
+    gap: 10px;
+    
+}
+div {
+    height: 50px;
+    border: 2px solid green;
+}
+#div1 {
+    flex-grow: 1;
+}
+#div2 {
+    flex-grow: 3;
+}
+#div3 {
+    flex-grow: 2;
+}
+#div4 {
+    flex-grow: 1;
+}
