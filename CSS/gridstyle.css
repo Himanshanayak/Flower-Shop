@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    box-sizing: border-box; /*not changable*/
+}
+.box {
+    background-color: green;
+    color: white;
+    padding: 30px;
+    height: 30vh;
+}
+.container {
+    display: grid;  /*allow to use all grid property*/
+    grid-template-rows: 1fr 200px;
+    grid-template-columns: auto 2fr auto;
+    column-gap: 20px;
+    row-gap: 50px;
+}
